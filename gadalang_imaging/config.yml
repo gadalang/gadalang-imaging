@@ -1,0 +1,18 @@
+runner: python
+nodes:
+  hello_world:
+    runner: pymodule
+    entrypoint: hello_world
+  helloworld:
+    file: __init__.py
+  gohelloworld:
+    runner: go
+    file: hello_world.go
+    entrypoint: HelloWorld
+  scalahelloworld:
+    runner: generic
+    command: scalac ${file}
+    file: HelloWorld.scala
+    entrypoint: HelloWorld
+  echo:
+    entrypoint: echo
