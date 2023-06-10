@@ -1,3 +1,4 @@
+"""Setup."""
 from __future__ import annotations
 from typing import TYPE_CHECKING
 import io
@@ -15,7 +16,7 @@ extras_require = {
 
 
 def read(*filenames, **kwargs):
-    """Read contents of multiple files and join them together"""
+    """Read contents of multiple files and join them together."""
     encoding = kwargs.get("encoding", "utf-8")
     sep = kwargs.get("sep", "\n")
     buf = []
