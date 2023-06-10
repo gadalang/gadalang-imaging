@@ -1,5 +1,7 @@
 # Custom
 *.bat
+pytest-report.html
+test/output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,7 +1,7 @@
 # gadalang-imaging
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gadalang-imaging)
-[![Python package](https://img.shields.io/github/workflow/status/gadalang/gadalang-imaging/Python%20package)](https://github.com/gadalang/gadalang-imaging/actions/workflows/python-package.yml)
+[![Python package](https://img.shields.io/github/workflow/status/gadalang/gadalang-imaging/ci)](https://github.com/gadalang/gadalang-imaging/actions/workflows/ci.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/gadalang/gadalang-imaging/issues)
 

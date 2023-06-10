@@ -1,0 +1,16 @@
+runner: python
+nodes:
+  - name: resize50
+    runner: pymodule
+    entrypoint: gadalang_imaging.resize_50
+    input:
+    - name: target
+      type: str
+      nargs: "+"
+      help: files to resize
+    menu:
+      type:
+      - files
+      path:
+      - Imaging
+      - Resize 50%
