@@ -5,10 +5,12 @@ on:
     paths-ignore:
       - "**.md"
       - "LICENSE"
+    branches: [master]
   pull_request:
     paths-ignore:
       - "**.md"
       - "LICENSE"
+    branches: [master]
 
 jobs:
   build:
@@ -26,12 +28,12 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Install Tox and any other packages
         run: |
-             python -m pip install -U pip
-             python -m pip install tox "coverage>=4.0,<4.4"
+          python -m pip install -U pip
+          python -m pip install tox "coverage>=4.0,<4.4"
       - name: Run Tox
         run: tox -- -v --color=yes
         env:
-            TOXENV: py${{ matrix.python-version}}-cov
+          TOXENV: py${{ matrix.python-version}}-cov
       - if: matrix.python-version == '3.9'
         name: Publish coverage
         uses: codecov/codecov-action@v1
