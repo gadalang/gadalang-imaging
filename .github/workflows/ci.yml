@@ -37,7 +37,7 @@ jobs:
       - name: Upload coverage reports to Codecov
         # Upload coverage if we are on the main repository and
         # we're running on Linux (this action only supports Linux)
-        if: github.repository == 'gadalang/gadalang-imaging' && matrix.os == "ubuntu-latest" && matrix.python == '3.10'
+        if: github.repository == 'gadalang/gadalang-imaging' && matrix.os == 'ubuntu-latest' && matrix.python == '3.10'
         uses: codecov/codecov-action@v3
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
