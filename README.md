@@ -7,24 +7,32 @@
 
 Collection of nodes for image processing with [gada](https://github.com/gadalang/gada).
 
-## Installing
+## Install
 
 Using pip:
 
 ```bash
-pip install gadalang-imaging
+$ pip3 install gadalang-imaging
 ```
+
+## Documentation
+
+Build the doc with:
+
+```bash
+$ make html
+```
+
+You can find the latest documentation on [gadalang-imaging.readthedocs.io](https://gadalang-imaging.readthedocs.io/).
 
 ## Testing
 
-The `test` directory contains many tests that you can run with:
+The `tests` directory contains many tests that you can run with:
 
 ```python
-$ python setup.py test
+$ tox .
 ```
 
-Or with coverage:
+## License
 
-```python
-$ coverage run --source=gadalang_imaging setup.py test
-```
+Licensed under the [MIT](LICENSE) License.
