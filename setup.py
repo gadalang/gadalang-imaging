@@ -55,6 +55,7 @@ setup(
     python_requires=">=3.8",
     classifiers=[
         "Development Status :: 3 - Alpha",
+        "Framework :: Gada",
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
         "Programming Language :: Python :: 3.8",
