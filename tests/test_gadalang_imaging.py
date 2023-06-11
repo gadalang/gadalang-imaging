@@ -30,5 +30,4 @@ def test_transform(transform: str) -> None:
     with Image.open(output_file) as output, Image.open(expected_file) as expected:
         assert output.size == expected.size
         diff = ImageChops.difference(output, expected)
-        diff.show()
         # assert not diff.getbbox()
