@@ -2,7 +2,7 @@
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gadalang-imaging)
 [![build](https://github.com/gadalang/gadalang-imaging/actions/workflows/ci.yml/badge.svg)](https://github.com/gadalang/gadalang-imaging/actions/workflows/ci.yml)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/gadalang/gadalang-imaging/issues)
 
 Collection of nodes for image processing with [gada](https://github.com/gadalang/gada).
